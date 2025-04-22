@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+
+  backdrop-filter: blur(13px) saturate(200%);
+  -webkit-backdrop-filter: blur(13px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: white;
+  z-index: 3;
+  text-shadow: 2px 2px 4px black;
+}
+p {
+  margin-bottom: 25px;
+  color: #ffffff;
+  z-index: 4;
+  text-shadow: 2px 2px 4px black;
+}
+.link {
+  display: block;
+  background-color: #9b1394;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  z-index: 5;
+}
+.link-btn:hover {
+  background-color: #8f25b9;
+}
+.myvideo {
+  position: fixed;
+  width: 100vh;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+a:hover{
+color: rgb(104, 0, 57);
+
+}
